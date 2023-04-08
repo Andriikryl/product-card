@@ -50,9 +50,35 @@
     margin: 1rem;
   }
 
-  .product{
-    
+  .flex-group{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
+
+  .product{
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem; 
+    background-color: var(--clr-neutral-100);
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+
+  .product__contant {
+    padding: var(--content-padding);
+    display: grid;
+    gap: var(--content-spacing);
+  }
+
+  .product__category{
+    text-transform: uppercase;
+  }
+
+
+
+
+
+
 
   
 
